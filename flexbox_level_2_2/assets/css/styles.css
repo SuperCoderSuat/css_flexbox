@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "Raleway-Rg";
+    src: url("../fonts/Raleway-Regular.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Raleway-Rg";
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-size: 3.75rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+nav {
+    min-height: 77px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 186px;
+    border-bottom: 0.1px solid #666;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+    gap: 30px;
+    font-size: 0.8125rem;
+    color: #333;
+}
+
+.navbar li:hover {
+    color: #337ab7;
+}
+
+.logo {
+    font-size: 1.5rem;
+    color: #666;
+}
+
+.logo:hover {
+    color: #333;
+}
+
+.banner {
+    height: 85vh;
+    width: 100%;
+    background-image: url("../img/ocean.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 80%;
+    color: #fff;
+}
+
+.button {
+    font-size: 0.75rem;
+    padding: 15px 60px;
+}
+
+.button-color-prim {
+    background-color: #745CF9; 
+    transition: 0.3s;
+}
+
+.button-color-prim:hover {
+    background-color: #5d47d7;
+}
+
+.button-color-sec {
+    border: 1px solid #fff;
+    transition: 0.3s;
+}
+
+.button-color-sec:hover {
+    background-color: #fff;
+    color: #222;
+}
+
+.mb25 {
+    margin-bottom: 25px;
+}
+
+.mb50 {
+    margin-bottom: 50px;
+}

@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+body {
+    height: 100vh;
+    background: url("../img/sun.jpg") center / cover no-repeat;
+    
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 1.25rem 50px 1.25rem 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    gap: 1.5rem;
+}
