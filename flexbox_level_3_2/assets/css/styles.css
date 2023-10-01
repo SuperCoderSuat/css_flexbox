@@ -5,7 +5,7 @@
 }
 
 html {
-
+    font-family: sans-serif;
 }
 
 a {
@@ -15,35 +15,60 @@ a {
 
 nav {
     display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
 }
 
 .navbar {
     list-style: none;
     display: flex;
+    align-items: baseline;
     gap: 25px;
 }
 
 .cart {
     list-style: none;
     display: flex;
+    align-items: flex-end;
+    gap: 15px;
 }
 
 section {
     background-color: #D9E8E5;
     padding-top: 80px;
     padding-bottom: 180px;
-    /* padding-left: 10%;
-    padding-right: 10%; */
+    padding-left: 100px;
+    padding-right: 100px;
 
 }
 
 .gallery {
     display: flex;
     flex-wrap: wrap;
-    /* gap: 25px; */
+    justify-content: center;
+    gap: 25px;
+    padding: 30px;
 }
 
 .gallery img {
-    width: 330px;
-    height: 227px;
+    width: 300px;
+    height: 200px;
+}
+
+.inline {
+    display: inline-flex;
+    gap: 10px;
+    align-items: baseline;
+    margin-right: 25px;
+}
+
+.preis {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 10px;
+}
+
+.relative {
+    position: relative;
 }
