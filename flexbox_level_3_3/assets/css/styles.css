@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.bild1 {
+    
+    background-image: url("../img/bild1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 300ms ease-in-out;
+    filter: grayscale(1);
+    flex-grow: 1;
+}
+
+.bild1:hover {
+    filter: grayscale(0);
+    flex-grow: 4;
+}
+
+.bild2 {
+    background-image: url("../img/bild2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 300ms ease-in-out;
+    filter: grayscale(1);
+    flex-grow: 1;
+}
+
+.bild2:hover {
+    filter: grayscale(0);
+    flex-grow: 4;
+}
+
+.bild3 {
+    background-image: url("../img/bild3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 300ms ease-in-out;
+    filter: grayscale(1);
+    flex-grow: 1;
+}
+
+.bild3:hover {
+    filter: grayscale(0);
+    flex-grow: 4;
+}
+
+.bild4 {
+    background-image: url("../img/bild4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 300ms ease-in-out;
+    filter: grayscale(1);
+    flex-grow: 1;
+}
+
+.bild4:hover {
+    filter: grayscale(0);
+    flex-grow: 4;
+}
