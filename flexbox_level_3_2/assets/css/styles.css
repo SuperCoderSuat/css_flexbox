@@ -15,7 +15,7 @@ a {
 
 nav {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     padding: 15px 50px;
 }
 
@@ -31,6 +31,8 @@ nav {
     display: flex;
     align-items: flex-end;
     gap: 15px;
+    margin-left: auto;
+
 }
 
 section {
@@ -39,7 +41,6 @@ section {
     padding-bottom: 180px;
     padding-left: 100px;
     padding-right: 100px;
-
 }
 
 .gallery {
@@ -56,7 +57,7 @@ section {
 }
 
 .inline {
-    display: inline-flex;
+    display: flex;
     gap: 10px;
     align-items: baseline;
     margin-right: 25px;
