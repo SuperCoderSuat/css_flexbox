@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>HTML Forms</h1>
+    <section>
+        <form action="">
+            <div>
+                <label for="vorname">Vorname</label>
+                <input
+                type="text"
+                name="vorname"
+                id="vorname"
+                class="vorname"
+                required
+                placeholder="Vorname">
+            </div>
+            <div>
+                <label for="nachname">Nachname</label>
+                <input
+                type="text"
+                name="nachname"
+                id="nachname"
+                class="nachname"
+                required
+                placeholder="Nachname">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div>
+                <label for="alter">Alter</label>
+                <input type="number" name="" id="" min="21" max="80">
+            </div>
+            <div>
+                <label for="passwort">Passwort</label>
+                <input type="password" name="" id="">
+            </div>
+            <div>
+                <label for="telefon">Telefon</label>
+                <input type="tel" name="" id="">
+            </div>
+            <div>
+                <h3>Wähle deinen Termin</h3>
+                <label for="datum">
+                    <input type="date" name="" id="">
+                </label>
+            </div>
+            <div>
+                <h3>Radiobutton Gender</h3>
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male">
+                <label for="other">Other</label>
+                <input type="radio" name="gender" id="other">
+            </div>
+            <div>
+                <h3>Checkboxen - Hobbys</h3>
+                <label for="rauchen">Rauchen</label>
+                <input type="checkbox" name="rauchen" id="rauchen">
+                <label for="schlafen">Schlafen</label>
+                <input type="checkbox" name="schlafen" id="schlafen">
+                <label for="essen">Essen</label>
+                <input type="checkbox" name="essen" id="essen">
+            </div>
+            <div>
+                <h3>Bitte lade deinen Lebenslauf hoch.</h3>
+                <label for="cv">CV</label>
+                <input type="file" name="cv" id="cv">
+            </div>
+            <div>
+                <label for="kenntnisse">Kenntnisse</label>
+                <input
+                type="range"
+                name="kenntnisse"
+                id="kenntnisse"
+                min="1"
+                max="20"
+                step="10">
+            </div>
+            <div>
+                <h3>Wähle eine Uhrzeit</h3>
+                <label for="time">Uhrzeit:</label>
+                <select name="" id="">
+                    <option value="">11 Uhr</option>
+                    <option value="">12 Uhr</option>
+                    <option value="">13 Uhr</option>
+                    <option value="">14 Uhr</option>
+                    <option value="">15 Uhr</option>
+                </select>
+            </div>
+            <div>
+                <h3>Sonstige Anmerkungen</h3>
+                <label for="textarea">Textarea</label>
+                <textarea name="" id="" cols="50" rows="5"></textarea>
+            </div>
+            <div>
+                <h3>Submit</h3>
+                <input type="submit" value="Abschicken">
+            </div>
+            <div>
+                <h3>Button</h3>
+                <input type="button" value="Drück mich">
+            </div>
+        </form>
+    </section>
+</body>
+</html>

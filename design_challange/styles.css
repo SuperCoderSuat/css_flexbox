@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.learnings__wrapper {
+    padding-inline: 168px;
+}
+
+.learnings {
+    display: flex;
+    gap: 200px;
+    margin-bottom: 88px;
+    flex-wrap: wrap;
+}
+
+.learning {
+    display: flex;
+    gap: 24px;
+    align-items: baseline;
+}
+
+.learning img {
+    width: 32px;
+}
+
+.learning__body h3 {
+    margin-bottom: 8px;
+    margin-bottom: 8px;
+}
+
+.learning__body p {
+    width: 300px;
+    line-height: 2;
+}
+
